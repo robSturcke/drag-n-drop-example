@@ -1,0 +1,53 @@
+.App {
+    text-align: center;
+    width: 95%;
+    margin: 1rem auto;
+}
+
+.container-drag {
+    text-align: center;
+}
+
+.wip {
+    position: absolute;
+    width: 150px;
+    height: 100vh;
+    left: 0;
+    top: 10;
+    background-color: #263238;
+    border-right: 1px solid;
+}
+
+.header {
+    display: inline-block;
+    margin: 0;
+    padding: 1rem;
+    background-color: #455a64;
+    color: #FFF;
+    width: 100%;
+}
+
+.task-header {
+    display: inline-block;
+    background-color: #90a4ae;
+    color: #FFF;
+    width:100%;
+}
+
+.droppable {
+    position: absolute;
+    width: 150px;
+    height: 100vh;
+    right: 0;
+    top: 10;
+    background-color: #263238;
+    border-left: 1px solid;
+}
+
+.draggable {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: 5px auto;
+    line-height: 5em;
+}
